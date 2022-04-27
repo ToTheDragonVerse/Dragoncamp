@@ -46,7 +46,7 @@ const AimScreen = () => {
                                 title="Educate"
                             />
                             <p>
-                            Make Learning Fun By Uploading Your Custom Audio Of Your Child Saying Numbers 1-10 Or Their ABC’s And We Will Create A Custom Video Using Grant The Dragon. Want To Be Be Mom, Dad, Grandparent, Aunt Or Uncle Of The Year? Click Below
+                                Have Your Child, Parent, Grandparent, Aunt, or Uncle Record The Numbers, Letters, Or Body Parts, So Your Child Is Gaining Self Awareness Hearing Their Voice And/Or Interacting With Family.  We Will Do A Custom App FREE For The First 10 Submissions.
                             </p>
                             {/* <a onClick={() => { setShow(true) }}> <Image src={LearnBtn} className='fluid' alt='btn' /> </a> */}
                             <a href='http://friendsfree.dragoncamp.net/'> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
