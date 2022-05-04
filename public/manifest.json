@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "DragonVerse NFT",
-    "short_name": "DragonVerse NFT",
-    "description": "HOW CAN I BUY A DragonVerse COLLECTIBLE? 1. Go to website - https://www.thedragonverse.net/  2. Connect your wallet using the button - \"Connect\"  3. Press the button - \"Mint\"  4. Select the desired number of collectibles to buy and press the button - \"Mint\"",
+    "name": "DragonCamp",
+    "short_name": "DragonCamp",
+    "description": "HOW CAN I BUY A DragonCamp COLLECTIBLE? 1. Go to website - https://www.dragonCamp.net/  2. Connect your wallet using the button - \"Connect\"  3. Press the button - \"Mint\"  4. Select the desired number of collectibles to buy and press the button - \"Mint\"",
     "icons": [
         {
             "src": "/icon-192x192.png",
