@@ -20,22 +20,19 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    z-index:-1;
+    z-index:-2;
     background-image: url(images/banner1/DragonCamp.png);
 }
-.DragonCamp-content::before{
-    content: '';
+.DragonCamp-img {
+    background-image: url(images/banner1/main-text.png);
+    width: 336px;
+    height: 210px;
     position: absolute;
     bottom: 0;
     top: auto;
-    left: 0;
-    right: auto;
-    width: 350px;
-    height: 210px;
+    z-index: -1;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
-    z-index:-1;
-    background-image: url(images/banner1/main-text.png);
 }
 .DragonCamp img {
     max-width: 100%;
@@ -203,16 +200,11 @@
         padding: 20px 0;
     }
     .DragonCamp .DragonCamp-block-title {
-        font-size: 34px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 36px;
     }
     .DragonCamp-content::after {
         height: 198px;
-    }
-    .DragonCamp-content::before {
-        width: 310px;
-        background-size: contain;
-        height: 180px;
     }
     .DragonCamp-content-title img {
         width: 336px;
@@ -220,6 +212,10 @@
     .DragonCamp .DragonCamp-icon img {
         width: 200px;
     }
+    .DragonCamp-img {
+        width: 256px;
+        height: 170px;
+   }
 }
 @media (max-width: 1400px) {
     .DragonCamp .Dragon-main-title {
@@ -279,9 +275,10 @@
     .DragonCamp-inner-block {
         padding-bottom: 60px;
     }
-    .DragonCamp-content::before {
-        width: 270px;
+    .DragonCamp-img {
+        width: 240px;
         height: 160px;
+        background-size: cover;
     }
     .DragonCamp-content::after {
         height: 158px;
@@ -358,10 +355,10 @@
     }
     .DragonCamp-content::after {
         height: 108px;
+        background-size: cover;
     }
-    .DragonCamp-content::before {
-        width: 240px;
-        height: 130px;
+    .DragonCamp-img {
+        height: 140px;
     }
     .DragonCamp .DragonCamp-inner-text {
         font-size: 17px;
@@ -385,6 +382,16 @@
     }
     .DragonCamp .DragonCamp-logo{
         width: 28%;
+    }
+    .DragonCamp-img {
+        position: relative;
+        background-size: contain;
+        text-align: center;
+        display: inline-block;
+        width: 150px;
+    }
+    .DragonCamp {
+        text-align: center;
     }
     .DragonCamp .DragonCamp-desc {
         width: 40%;
@@ -429,6 +436,10 @@
     }
     .DragonCamp-block-title.title2 {
         margin-top: 10px;
+    }
+    .DragonCamp-img {
+        width: 150px;
+        margin: auto;
     }
     .DragonCamp .DragonCamp-block-title {
         font-size: 18px;

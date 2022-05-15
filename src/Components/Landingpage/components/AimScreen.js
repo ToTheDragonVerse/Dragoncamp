@@ -17,7 +17,18 @@ const AimScreen = () => {
                     <Col lg={4} className="order-1 order-lg-0">
                         <div className='aimBox'>
                             <h2>EDUCATE</h2>
-                            <Image src={Educate} className='fluid' alt="Educate" />
+                            {/* <Image src={Educate} className='fluid' alt="Educate" /> */}
+                            <iframe
+                                className='fluid'
+                                alt="Educate"
+                                width="450"
+                                height="250"
+                                src={`https://www.youtube.com/embed/MlccZeGqXuM`}
+                                frameBorder="5"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                title="Educate"
+                            />
                             <p className='educateText'>
                                 Access To Our Learning Application, DragonCamp, To Teach Children The Basics Like Numbers, And The Alphabet,
                                 Will ALWAYS Be Free.
@@ -39,7 +50,7 @@ const AimScreen = () => {
                                 alt="Educate"
                                 width="450"
                                 height="250"
-                                src={`https://www.youtube.com/embed/MlccZeGqXuM`}
+                                src={`https://www.youtube.com/embed/EESsy4G4LrY`}
                                 frameBorder="5"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen

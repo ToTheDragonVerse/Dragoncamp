@@ -10,6 +10,7 @@ const Banner1 = () => {
   return (
     <div className='DragonCamp'>
         <div className='DragonCamp-content'>
+            
             <div className='DragonCamp-inner row'>
                 <div className='DragonCamp-logo'>
                     <img src={logo}/>
@@ -45,6 +46,7 @@ const Banner1 = () => {
                     <img src={image2}/>
                 </div>
             </div>
+            <div className='DragonCamp-img'></div>
             <div className='DragonCamp-block'>
                 <div className='DragonCamp-block-title title1'>
                     30 DAY FREE TRIAL
