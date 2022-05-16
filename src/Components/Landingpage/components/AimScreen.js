@@ -67,7 +67,7 @@ const AimScreen = () => {
                 <Row className="g-0 fun-for-all-ages">
                     <Col lg={4} className="order-0 order-lg-1">
                         <div className='funAim'>
-                            <h3>FUN FOR ALL AGES</h3>
+                            <h3>A FAMILY COMPANY FOR FAMILIES</h3>
                         </div>
                     </Col>
                 </Row>
