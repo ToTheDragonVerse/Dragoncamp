@@ -11,6 +11,7 @@ const AimScreen = () => {
     const [show, setShow] = React.useState(false);
 
     return (
+        <>
         <section className='aimScreens'>
             <Container>
                 <Row className="g-0">
@@ -81,7 +82,10 @@ const AimScreen = () => {
             >
                 <PricingPlan />
             </Modal>
+            
         </section>
+        <h6 className='scroll-text' style={{fontSize:'12pt',textAlign:'center', color:"white",marginBottom: '0px',paddingBottom: '15px' }}>Scroll Down On The Chalkboard</h6>
+        </>
     )
 }
 
