@@ -347,9 +347,6 @@
     .DragonCamp-inner-block {
         padding-bottom: 30px;
     }
-    .DragonCamp-block {
-        padding-bottom: 20px;
-    }
     .DragonCamp .DragonCamp-desc {
         padding: 20px 0 0;
     }
@@ -371,6 +368,9 @@
     }
     .DragonCamp .Dragon-main-title {
         width: 80%;
+    }
+    .DragonCamp-block {
+        padding-bottom: 100px;
     }
     .DragonCamp .DragonCamp-logo,.DragonCamp .DragonCamp-desc{
         order: 2;
