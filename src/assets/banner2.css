@@ -19,9 +19,23 @@
     font-family: "Montserrat";
     padding-bottom: 30px;
 }
+.Benefits-banner-img1 img {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.Benefits-banner-content{
+    padding-left: 15px;
+}
 .Benefits-banner .Benefits-content {
     display: flex;
     padding-bottom: 25px;
+}
+.Benefits-banner-img1 {
+    margin-bottom: -35px;
+    z-index: 1;
+    position: relative;
+    text-align: center;
 }
 .Benefits-banner .Benefits-desc {
     font-size: 25px;
@@ -81,10 +95,6 @@
         font-size: 20px;
         line-height: 26px;
     }
-    .Benefits-banner .content-image img {
-        height: 90px;
-        width: 90px;
-    }
     .Benefits-banner .Benefits-details {
         font-size: 28px;
         line-height: 36px;
@@ -137,10 +147,16 @@
         line-height: 32px;
         padding: 8px 26px;
     }
+    .Benefits-banner-img1 {
+        margin-bottom: -15px;
+    }
 }
 @media (max-width: 767px) {
     .Benefits-banner-img img {
         padding-bottom: 30px;
+    }
+    .Benefits-banner-img1 {
+        margin-bottom: -55px;
     }
 }
 @media (max-width: 480px) {
