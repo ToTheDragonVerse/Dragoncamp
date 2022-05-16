@@ -9,15 +9,15 @@ const Banner2 = () => {
     return (
         <div className='Benefits-banner'>
             <div className='Benefits-banner-inner'>
-                <div className='Benefits-banner-img col-lg-6 col-md-5' style={{position:'relative'}}>
-                    <div className='Benefits-banner-img1'><img src={image2} /></div> 
-                    <img src={image1} />
+                <div className='col-lg-6 col-md-5'>
+                    <img src={image2} />
+                    {/* <img src={image1} style={{height:400}} /> */}
                     <div class="iframe-wrapper">
                         <iframe
-                            className='fluid'
+                            // className='fluid'
                             alt="Educate"
-                            // width="600"
-                            // height="360"
+                            width="100%"
+                            height="400"
                             src={`https://www.youtube.com/embed/WzY0wfJfv2M`}
                             frameBorder="5"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
