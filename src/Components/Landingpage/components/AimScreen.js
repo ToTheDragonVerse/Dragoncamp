@@ -21,8 +21,8 @@ const AimScreen = () => {
                             <iframe
                                 className='fluid'
                                 alt="Educate"
-                                width="450"
-                                height="250"
+                                // width="450"
+                                // height="250"
                                 src={`https://www.youtube.com/embed/MlccZeGqXuM`}
                                 frameBorder="5"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -48,8 +48,8 @@ const AimScreen = () => {
                             <iframe
                                 className='fluid'
                                 alt="Educate"
-                                width="450"
-                                height="250"
+                                // width="450"
+                                // height="250"
                                 src={`https://www.youtube.com/embed/EESsy4G4LrY`}
                                 frameBorder="5"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

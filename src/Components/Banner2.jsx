@@ -12,12 +12,12 @@ const Banner2 = () => {
                 <div className='Benefits-banner-img col-lg-6 col-md-5' style={{position:'relative'}}>
                     <div className='Benefits-banner-img1'><img src={image2} /></div> 
                     <img src={image1} />
-                    <div style={{ position: 'absolute', bottom: 30, right: 0, left: 30 }}>
+                    <div class="iframe-wrapper">
                         <iframe
                             className='fluid'
                             alt="Educate"
-                            width="600"
-                            height="360"
+                            // width="600"
+                            // height="360"
                             src={`https://www.youtube.com/embed/WzY0wfJfv2M`}
                             frameBorder="5"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

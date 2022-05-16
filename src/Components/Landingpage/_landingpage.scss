@@ -92,7 +92,13 @@ img {
 
 .aimScreens {
     padding-bottom: 37px;
+
+    iframe {
+        width: 450px;
+        height: 250px;
+    }
 }
+
 .fun-for-all-ages{
     // width: 90%;
     display: flex;
@@ -104,10 +110,17 @@ img {
 // Responsive
 
 @media (max-width: 1536px) {
-    .aimBox p {
-        font-size: 18px;
-        min-height: 140.4px;
+    .aimBox  {
+        iframe {
+            width: auto;
+            height: auto;
+        }
+        p {
+            font-size: 18px;
+            min-height: 140.4px;
+        }
     }
+    
 }
 
 @media (max-width: 1200px) {

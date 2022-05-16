@@ -7,6 +7,9 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.Benefits-banner-img {
+    position: relative;
+}
 .Benefits-banner-img img {
     max-width: 100%;
 }
@@ -24,6 +27,15 @@
     vertical-align: top;
     text-align: center;
 }
+.Benefits-banner-img .iframe-wrapper {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.Benefits-banner-img iframe {
+    width: 600px;
+    height: 360px;
+}
 .Benefits-banner-content{
     padding-left: 15px;
 }
@@ -31,7 +43,7 @@
     display: flex;
     padding-bottom: 25px;
 }
-.Benefits-banner-img1 {
+.Benefits-banner .Benefits-banner-img1 {
     margin-bottom: -35px;
     z-index: 1;
     position: relative;
@@ -91,6 +103,10 @@
         font-size: 40px;
         line-height: 48px;
     }
+    .Benefits-banner-img iframe {
+        width: 450px;
+        height: 260px;
+    }
     .Benefits-banner .Benefits-desc {
         font-size: 20px;
         line-height: 26px;
@@ -147,11 +163,25 @@
         line-height: 32px;
         padding: 8px 26px;
     }
+    .Benefits-banner-img .iframe-wrapper {
+        bottom: 25px;
+        left: 25px;
+    }
     .Benefits-banner-img1 {
         margin-bottom: -15px;
     }
+
+    .Benefits-banner-img iframe {
+        width: 264px;
+        height: 150px;
+    }
 }
 @media (max-width: 767px) {
+    .Benefits-banner-img .iframe-wrapper {
+        bottom: 40px;
+        left: 40px;
+    }
+
     .Benefits-banner-img img {
         padding-bottom: 30px;
     }
@@ -159,7 +189,25 @@
         margin-bottom: -55px;
     }
 }
+@media (max-width: 575px) {
+    .Benefits-banner-img .iframe-wrapper {
+        bottom: 65px;
+        left: 35px;
+    }
+    .Benefits-banner-img iframe {
+        width: 485px;
+        height: 280px;
+    }
+}   
 @media (max-width: 480px) {
+    .Benefits-banner-img .iframe-wrapper {
+        bottom: 47px;
+        left: 25px;
+    }
+    .Benefits-banner-img iframe {
+        width: 415px;
+        height: 250px;
+    }
     .Benefits-banner {
         padding: 30px 8px;
     }
@@ -183,5 +231,15 @@
         font-size: 19px;
         line-height: 22px;
         padding: 8px 20px;
+    }
+}
+@media (max-width: 320px) {
+    .Benefits-banner-img .iframe-wrapper {
+        bottom: 41px;
+        left: 15px;
+    }
+    .Benefits-banner-img iframe {
+        width: 275px;
+        height: 165px;
     }
 }
