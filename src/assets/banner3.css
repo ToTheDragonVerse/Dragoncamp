@@ -17,7 +17,7 @@
     max-width: 100%;
 }
 .Inspiration-banner .Inspiration-inner-content::-webkit-scrollbar {
-    width: 0px;
+    width: 2px;
     height: 0px; 
 }
 .Inspiration-banner .Inspiration-inner-content {
@@ -31,7 +31,7 @@
     font-size: 26px;
     line-height: 35px;
     color: #ffffff;
-    font-family: 'Pirate Kids';
+    /* font-family: 'Pirate Kids'; */
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
