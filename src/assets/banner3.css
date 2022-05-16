@@ -16,6 +16,10 @@
 .Inspiration-banner img {
     max-width: 100%;
 }
+.Inspiration-banner .Inspiration-inner-content::-webkit-scrollbar {
+    width: 0px;
+    height: 0px; 
+}
 .Inspiration-banner .Inspiration-inner-content {
     position: absolute;
     top: auto;
@@ -53,19 +57,28 @@
         width: 680px;
         height: 107px;
     }
+    .Inspiration-banner .Inspiration-inner-content {
+        max-height: 260px;
+        overflow-y: auto;
+    }
 }
 @media (max-width: 1550px) {
     .Inspiration-banner::after {
         top: 32%;
     }
-    .Inspiration-banner .Inspiration-inner-content{
-        -webkit-line-clamp: 6;
+    .Inspiration-banner .Inspiration-inner-content {
+        max-height: 220px;
+        overflow-y: auto;
     }
 }
 @media (max-width: 1350px) {
     .Inspiration-banner::after {
         width: 490px;
         height: 79px;
+    }
+    .Inspiration-banner .Inspiration-inner-content {
+        max-height: 220px;
+        overflow-y: auto;
     }
 }
 @media (max-width: 1250px) {
@@ -75,12 +88,15 @@
     }
     .Inspiration-banner .Inspiration-inner-content {
         font-size: 17px;
+        max-height: 220px;
+        overflow-y: auto;
     }
 }
 @media (max-width: 1150px) {
     .Inspiration-banner .Inspiration-inner-content {
-        -webkit-line-clamp: 5;
         line-height: 30px;
+        max-height: 170px;
+        overflow-y: auto;
     }
 }
 @media (max-width:991px){
@@ -88,17 +104,25 @@
         width: 270px;
         height: 44px;
     }
+    .Inspiration-banner .Inspiration-inner-content {
+        max-height: 170px;
+        overflow-y: auto;
+    }
 }
 @media (max-width:850px){
     .Inspiration-banner .Inspiration-inner-content {
         font-size: 16px;
         line-height: 26px;
+        max-height: 140px;
+        overflow-y: auto;
     }
 }
 @media (max-width:767px){
     .Inspiration-banner .Inspiration-inner-content {
         font-size: 13px;
         line-height: 22px;
+        max-height: 105px;
+        overflow-y: auto;
     }
     .Inspiration-banner::after {
         top: 22%;
@@ -116,10 +140,12 @@
         width: 170px;
         height: 28px;
         top: 12%;
-    }
+    }      
     .Inspiration-banner .Inspiration-inner-content {
         font-size: 10px;
         line-height: 18px;
-        -webkit-line-clamp:4;
+        /* -webkit-line-clamp:4; */
+        max-height: 85px;
+        overflow-y: auto;
     }
 }
