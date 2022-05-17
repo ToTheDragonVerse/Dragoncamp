@@ -130,12 +130,12 @@
     padding: 25px 15px;
     text-transform: uppercase;
 }
-.DragonCamp .DragonCamp-inner-text div{
+/* .DragonCamp .DragonCamp-inner-text div{
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;
-}
+} */
 .DragonCamp-block {
     justify-content: space-between;
     padding-bottom: 40px;
@@ -380,6 +380,10 @@
         line-height: 26px;
         width: 48%;
     }
+    .DragonCamp .DragonCamp-block-title.title2{
+        display: none;
+    }
+
     .DragonCamp .DragonCamp-logo{
         width: 28%;
     }
@@ -389,6 +393,7 @@
         text-align: center;
         display: inline-block;
         width: 150px;
+        height: 100px;
     }
     .DragonCamp {
         text-align: center;

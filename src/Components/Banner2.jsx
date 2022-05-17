@@ -32,13 +32,13 @@ const Banner2 = () => {
                     </div>
                     <div className='Benefits-content'>
                         <div className='content-image img1'>
-                            <img src={icon1} />
+                            <img  src={icon1} />
                         </div>
                         <div className='Benefits-desc'>IDENTIFY WORDS THAT YOUR CHILD STRUGGLES SAYING AND CUSTOMIZE THE APP TO HELP THEM PRACTICE IN A FUN PLAYFUL ENVIRONMENT. MY NEPHEW AVERY GRANT DEMONSTRATES..</div>
                     </div>
                     <div className='Benefits-content'>
                         <div className='content-image img2'>
-                            <img src={icon2} />
+                            <img  src={icon2} />
                         </div>
                         <div className='Benefits-desc'>GET PRICELESS DATA ON THE LETTERS, WORDS, AND NUMBERS YOUR CHILD LIKES TO INTERACT WITH MOST, OR AVOIDS.</div>
                     </div>
