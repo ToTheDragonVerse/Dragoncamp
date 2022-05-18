@@ -40,7 +40,7 @@ const Banner1 = () => {
                     <img src={image1}/>
                 </div>
                 <div className='DragonCamp-inner-text col-sm-4'>
-                   <div> Our near instant audio upload function allows you to customize the letters, numbers, or words you and your child can play with in under 1 minute.</div>
+                   <div> OUR IMAGE UPLOAD FUNCTION ALLOWS YOU TO TAKE PICTURES OF CARD, FOOD, FRUUTS, VEGETABLES, BASICALLY ANYTHING YOU WANT TO TEACH, THEN ADD YOUR AUDIO AND START PLAYING! SHARE THINGS YOU SEE OR EAT DURING THE DAY WHILE AT WORK OR TRAVELING AND ALWAYS STAY CONNECTED TO YOUR CHILD. . ALL IN SECONDS..</div>
                 </div>
                 <div className='DragonCamp-inner-img img1 col-sm-4'>
                     <img src={image2}/>
