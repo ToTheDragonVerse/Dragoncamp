@@ -1,8 +1,10 @@
 import React from 'react'
 import '../assets/banner1.css'
 import logo from '../assets/images/banner1/logo.png'
-import image1 from '../assets/images/banner1/image-1.png'
-import image2 from '../assets/images/banner1/image-2.png'
+// import image1 from '../assets/images/banner1/image-1.png'
+import image1 from '../assets/images/banner1/numbers.jpeg'
+// import image2 from '../assets/images/banner1/image-2.png'
+import image2 from '../assets/images/banner1/upload.jpeg'
 import text from '../assets/images/banner1/Number-text.png'
 import icons1 from '../assets/images/banner1/icon-1.png'
 
