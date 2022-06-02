@@ -5,6 +5,7 @@ import LandingPage from './Components/Landingpage/index.js'
 import Banner3 from "./Components/Banner3";
 import Banner1 from "./Components/Banner1";
 import Banner2 from "./Components/Banner2";
+import Teamlist from "./pages/Team";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Banner3 />
       <Banner1/>
       <Banner2/>
+      <Teamlist/>
     </>
   );
 }
