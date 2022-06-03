@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import img01 from "../assets/images/team01.jpg";
-import img02 from "../assets/images/team04.jpg";
+import img02 from "../assets/images/team02.jpg";
 import img03 from "../assets/images/team03.jpg";
 import img04 from "../assets/images/team04.jpg";
 import arrowright from "../assets/images/arrow-right.png";
@@ -72,7 +72,7 @@ const Team = () => {
               <div className="team-bl">
                 <img src={img04} alt="" />
                 <div className="team-info">
-                    <h2>Kisha Nicole Stapp</h2>
+                    <h2>Mark Muller</h2>
                     <p>Our resident Grandfather and Education Director with over 30 years of experience, most recently retired as the Assistant Superintendent of Instructional Services for Santa Maria-Bonita School District in Southern California.</p>
                     <a href="!#" className="btn bg-light-blue">EDUCATION DIRECTOR<i className="icon"><img src={arrowright} alt="icon" /></i></a>
                 </div>
