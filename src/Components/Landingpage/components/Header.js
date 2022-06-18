@@ -12,10 +12,10 @@ const Header = () => {
                     AG
                     <div style={{ 'color': '#ffa200' }}>O</div>
                     N
-                    <span style={{ 'color': '#b400ff' }}>V</span>
-                    e
-                    <div style={{ 'color': '#ff0000' }}>r</div>
-                    se
+                    <span style={{ 'color': '#b400ff' }}>C</span>
+                    A
+                    <div style={{ 'color': '#ff0000' }}>M</div>
+                    P
                 </h1>
                 <h2><span>W</span>HERE WE AIM TO</h2>
             </Container>
