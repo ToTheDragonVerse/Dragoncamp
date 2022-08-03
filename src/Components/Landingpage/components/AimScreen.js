@@ -34,7 +34,7 @@ const AimScreen = () => {
                                 Access To Our Learning Application, DragonCamp, To Teach Children The Basics Like Numbers, And The Alphabet,
                                 Will ALWAYS Be Free.
                             </p>
-                            <a href='https://testflight.apple.com/join/iQEL2LYZ' target="_blank"> <Image src={DragonBtn} className='fluid' alt='btn' /> </a>
+                            <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank"> <Image src={DragonBtn} className='fluid' alt='btn' /> </a>
                         </div>
                     </Col>
                     <Col lg={4} className="order-0 order-lg-1">
@@ -58,10 +58,10 @@ const AimScreen = () => {
                                 title="Educate"
                             />
                             <p>
-                                Have Your Child, Parent, Grandparent, Aunt, or Uncle Record The Numbers, Letters, Or Body Parts, So Your Child Is Gaining Self Awareness Hearing Their Voice And/Or Interacting With Family.  We Will Do A Custom App FREE For The First 10 Submissions.
+                                Have Your Child, Parent, Grandparent, Aunt, or Uncle Record The Numbers, Letters, Or Body Parts, So Your Child Is Gaining Self Awareness Hearing Their Voice And/Or Interacting With Family.
                             </p>
                             {/* <a onClick={() => { setShow(true) }}> <Image src={LearnBtn} className='fluid' alt='btn' /> </a> */}
-                            <a href='https://testflight.apple.com/join/iQEL2LYZ' target="_blank"> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
+                            <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank"> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
                         </div>
                     </Col>
                 </Row>

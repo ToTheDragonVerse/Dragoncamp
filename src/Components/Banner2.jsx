@@ -46,7 +46,7 @@ const Banner2 = () => {
                         START ASSOCIATING LEARNING AS FUN RIGHT WHEN THEY ARE STARTING TO FORM THE HABITS THAT WILL SHAPE THEIR YOUTH
                     </div>
                     <div className='Benefits-btn'>
-                        <a href='https://testflight.apple.com/join/iQEL2LYZ' target="_blank">Start Your 30 Day Trial</a>
+                        <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank">GET YOUR FREE TRIAL</a>
                     </div>
                 </div>
             </div>

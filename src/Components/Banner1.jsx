@@ -15,7 +15,7 @@ const Banner1 = () => {
 
                 <div className='DragonCamp-inner row'>
                     <div className='DragonCamp-logo'>
-                        <a href='https://testflight.apple.com/join/iQEL2LYZ' target="_blank"> <img src={logo} /></a>
+                        <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank"> <img src={logo} /></a>
                     </div>
                     <div className='Dragon-main-title'>
                         <div className='Dragon-title'>
@@ -50,14 +50,14 @@ const Banner1 = () => {
                 </div>
                 <div className='DragonCamp-img'></div>
                 <div className='DragonCamp-block'>
-                    <a href='https://testflight.apple.com/join/iQEL2LYZ' target="_blank">
+                    <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank">
                         <div className='DragonCamp-block-title title1'>
-                            30 DAY FREE TRIAL
+                            GET YOUR FREE TRIAL
                         </div>
                     </a>
-                    <a href='https://testflight.apple.com/join/iQEL2LYZ' target="_blank">
+                    <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank">
                         <div className='DragonCamp-block-title title2'>
-                            30 DAY FREE TRIAL
+                            GET YOUR FREE TRIAL
                         </div>
                     </a>
                 </div>
