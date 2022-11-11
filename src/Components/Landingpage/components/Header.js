@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 const Header = () => {
     return (
         <section className='lp__header'>
-            <Container>
+           <Container>
                 <span>Welcome to</span>
                 <h1 >
                     <span>d</span>
@@ -12,10 +12,10 @@ const Header = () => {
                     AG
                     <div style={{ 'color': '#ffa200' }}>O</div>
                     N
-                    <span style={{ 'color': '#b400ff' }}>C</span>
-                    A
-                    <div style={{ 'color': '#ff0000' }}>M</div>
-                    P
+                    <span style={{ 'color': '#b400ff' }}>V</span>
+                    e
+                    <div style={{ 'color': '#ff0000' }}>r</div>
+                    se
                 </h1>
                 <h2><span>W</span>HERE WE AIM TO</h2>
             </Container>
