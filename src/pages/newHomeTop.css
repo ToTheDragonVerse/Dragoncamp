@@ -21,7 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .container > h1 {
+  .toph1 {
     font-size: 80px;
     color: red;
     text-align: center;
@@ -84,7 +84,7 @@
     width: 50px;
   }
   @media (max-width: 1320px) {
-    .container > h1 {
+    .toph1 {
       font-size: 60px;
       margin-bottom: 40px;
       line-height: 1.5;

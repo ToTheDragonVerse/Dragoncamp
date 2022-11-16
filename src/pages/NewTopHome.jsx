@@ -11,7 +11,7 @@ function NewTopHome() {
   return (
     <div className="App">
       <div className="container">
-        <h1>PLAY FREE TRIVIA AND WIN</h1>
+        <h1 className="toph1">PLAY FREE TRIVIA AND WIN</h1>
         <div className="innerContainer">
           <div className="left">
             <div className="imgplaybtn">
