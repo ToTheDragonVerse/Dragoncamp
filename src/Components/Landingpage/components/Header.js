@@ -7,7 +7,7 @@ const Header = () => {
             <Container>
                 <span>Welcome to</span>
                 <h1 >
-                    <span>d</span>
+                    <span>D</span>
                     <div style={{ 'color': '#ff0000' }}>R</div>
                     AG
                     <div style={{ 'color': '#ffa200' }}>O</div>
