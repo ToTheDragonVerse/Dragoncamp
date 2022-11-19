@@ -54,7 +54,8 @@ const Team = () => {
                 <div className="team-info">
                     <h2>Adam Stapp</h2>
                     <p>Our resident father and COO graduated from San Jose State with a degree in finance and has worked for 7 years, most recently as the Senior Manager of Sales and Compensation.</p>
-                    <a href="!#" className="btn bg-purple">COO<i className="icon"><img src={arrowright} alt="icon" /></i></a>
+                    {/* <a href="!#" className="btn bg-purple">COO<i className="icon"><img src={arrowright} alt="icon" /></i></a> */}
+                    <a href="!#" className="btn bg-rred">COO<i className="icon"><img src={arrowright} alt="icon" /></i></a>
                 </div>
               </div>
             </Col>
@@ -74,7 +75,8 @@ const Team = () => {
                 <div className="team-info">
                     <h2>Mark Muller</h2>
                     <p>Our resident Grandfather and Education Director with over 30 years of experience, most recently retired as the Assistant Superintendent of Instructional Services for Santa Maria-Bonita School District in Southern California.</p>
-                    <a href="!#" className="btn bg-light-blue">EDUCATION DIRECTOR<i className="icon"><img src={arrowright} alt="icon" /></i></a>
+                    {/* <a href="!#" className="btn bg-light-blue">EDUCATION DIRECTOR<i className="icon"><img src={arrowright} alt="icon" /></i></a> */}
+                    <a href="!#" className="btn bg-rred">EDUCATION DIRECTOR<i className="icon"><img src={arrowright} alt="icon" /></i></a>
                 </div>
               </div>
             </Col>

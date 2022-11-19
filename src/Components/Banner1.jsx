@@ -52,12 +52,12 @@ const Banner1 = () => {
                 <div className='DragonCamp-block'>
                     <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank">
                         <div className='DragonCamp-block-title title1'>
-                            GET YOUR FREE TRIAL
+                        PLAY FREE
                         </div>
                     </a>
                     <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank">
                         <div className='DragonCamp-block-title title2'>
-                            GET YOUR FREE TRIAL
+                        PLAY FREE
                         </div>
                     </a>
                 </div>

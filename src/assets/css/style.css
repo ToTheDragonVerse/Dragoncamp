@@ -24,6 +24,9 @@
 .bg-green{background: #8adf00;}
 .bg-light-red{background: #f00484;}
 .bg-light-blue{background: #058894;}
+.bg-rred{
+    background-color: #fc1717;
+}
 /* .btn.bg-purple:hover{background:transparent; border-color: #72008b; color: #72008b;}
 .btn.bg-green:hover{background:transparent; border-color: #8adf00; color: #8adf00;}
 .btn.bg-light-red:hover{background:transparent; border-color: #f00484; color: #f00484;}
