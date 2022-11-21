@@ -2,7 +2,9 @@ import React from 'react'
 import { Col, Container, Image, Row, Modal } from 'react-bootstrap'
 import Educate from '../../../assets/img/educate.png'
 import Entertain from '../../../assets/img/entertain.png'
-import DragonBtn from '../../../assets/img/dragon-btn.png'
+// import DragonBtn from '../../../assets/img/dragon-btn.png'
+import appstore from '../../../assets/img/appstore.png'
+import googleplay from '../../../assets/img/gstore.png'
 import LearnBtn from '../../../assets/img/learn-btn.png'
 import FunGirl from '../../../assets/img/age.png'
 import PricingPlan from '../../PricingPlan/components/PricingIndex'
@@ -34,7 +36,7 @@ const AimScreen = () => {
                                 Access To Our Learning Application, DragonCamp, To Teach Children The Basics Like Numbers, And The Alphabet,
                                 Will ALWAYS Be Free.
                             </p>
-                            <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank"> <Image src={DragonBtn} className='fluid' alt='btn' /> </a>
+                            <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank"> <Image src={appstore} className='fluid' alt='btn' /> </a>
                         </div>
                     </Col>
                     <Col lg={4} className="order-0 order-lg-1">
@@ -61,7 +63,7 @@ const AimScreen = () => {
                                 Have Your Child, Parent, Grandparent, Aunt, or Uncle Record The Numbers, Letters, Or Body Parts, So Your Child Is Gaining Self Awareness Hearing Their Voice And/Or Interacting With Family.
                             </p>
                             {/* <a onClick={() => { setShow(true) }}> <Image src={LearnBtn} className='fluid' alt='btn' /> </a> */}
-                            <a href='https://apps.apple.com/us/app/DragonCamp/id1622253862' target="_blank"> <Image src={LearnBtn} className='fluid' alt='btn' /> </a>
+                            <a href='https://play.google.com/store/apps/details?id=com.dragoncamp.game' target="_blank"> <Image src={googleplay} className='fluid' alt='btn' /> </a>
                         </div>
                     </Col>
                 </Row>
