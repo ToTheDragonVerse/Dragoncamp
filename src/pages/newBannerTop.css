@@ -122,6 +122,10 @@
     height: 100%;
 }
 
+.Hidemobile{ 
+    display: block;
+}
+
 @media screen and (max-width: 1200px) {
     .left-heading-wrapper h1 {
         font-size: 56px;
@@ -165,7 +169,11 @@
 
 }
 
+
 @media screen and (max-width: 767px) {
+    .Hidemobile{ 
+        display: none;
+    }
     .carousel-wrap {
         margin: 50px auto;
     }

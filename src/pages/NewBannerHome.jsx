@@ -64,47 +64,27 @@ function NewBannerHome() {
                 </div>
 
                 <div class="row">
-                    <div class="slider-wrapper">
-                        <div class="carousel-wrap">
-                            <div class="owl-carousel">
-                                <div class="item">
-                                    <div class="img-wrapper">
-                                        <img src={slider7} alt="img" />
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img-wrapper">
-                                        <img src={slider6} alt="img" />
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img-wrapper">
-                                        <img src={slider5} alt="img" />
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img-wrapper">
-                                        <img src={slider4} alt="img" />
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img-wrapper">
-                                        <img src={slider3} alt="img" />
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img-wrapper">
-                                        <img src={slider2} alt="img" />
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img-wrapper">
-                                        <img src={slider1} alt="img" />
-                                    </div>
-                                </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm Hidemobile">
+                            <div class="img-wrapper">
+                                <img src={slider7} alt="img" />
                             </div>
                         </div>
+                        <div class="col-sm Hidemobile">
+                            <div class="img-wrapper">
+                                <img src={slider6} alt="img" />
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="img-wrapper">
+                                <img src={slider5} alt="img" />
+                            </div>
+                        </div>
+                        
+                      </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
