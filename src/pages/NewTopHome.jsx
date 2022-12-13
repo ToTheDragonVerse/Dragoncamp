@@ -3,14 +3,8 @@ import playbtn from './assets/playbtn.png';
 import starImgOne from './assets/starImgOne.png';
 import starImgTwo from './assets/starImgTwo.png';
 import bottomStar from './assets/bottomStar.png';
-import eclipsImg from './assets/eclipsImg.png';
-import baby from './assets/baby.png';
-import baby2 from './assets/baby2.png';
-import baby3 from './assets/baby3.png';
-import bgmain from './assets/bgmain.png';
-
-import instagram from './assets/Instagram.png'
-import twitter from './assets/Twitter.png'
+import instagram from './assets/instagram.png'
+import twitter from './assets/twitter.png'
 import youtube from './assets/YouTube.png'
 import facebook from './assets/Facebook.png'
 
