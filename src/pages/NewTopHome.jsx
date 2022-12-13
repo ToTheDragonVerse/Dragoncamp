@@ -4,7 +4,7 @@ import starImgOne from './assets/starImgOne.png';
 import starImgTwo from './assets/starImgTwo.png';
 import bottomStar from './assets/bottomStar.png';
 import instagram from './assets/instagram.png'
-import twitter from './assets/twitter.png'
+import twitter from './assets/Twitter.png'
 import youtube from './assets/YouTube.png'
 import facebook from './assets/Facebook.png'
 
