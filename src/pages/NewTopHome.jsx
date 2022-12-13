@@ -72,23 +72,23 @@ function NewTopHome() {
                             </h1>
                         </div>
                         <div class="col-12">
-                            <p class="headingContent">change to this - Every 5 stars you win 1 free entry into ourdaily/weekly contests where you can winprizes like food, gift cards andDragonCamp merchandise! Win yourown green DragonCamp onesie. Followus on social to see if you've won!
+                            <p class="headingContent">Every 5 stars you win 1 free entry into our daily/weekly contests where you can winprizes like food, gift cards and DragonCamp merchandise! Win your own green DragonCamp onesie. Followus on social to see if you've won!
                             </p>
                         </div>
                         <div class="col-12">
-                            <a href="" className='plybtton'>
-                              <img src={playbtn} alt=""/>
+                            <a href="!#" className='plybtton'>
+                              <img src={playbtn} alt="" />
                             </a>
                             <a href="https://www.instagram.com/mydragoncamp/" className='socialImg firstChild'>
                               <img src={instagram} alt=""/>
                             </a>
-                            <a href="https://www.instagram.com/mydragoncamp/" className='socialImg'>
+                            <a href="https://www.facebook.com/mydragoncamp/" className='socialImg'>
                               <img src={facebook} alt=""/>
                             </a>
                             <a href="https://www.instagram.com/mydragoncamp/" className='socialImg'>
                               <img src={twitter} alt=""/>
                             </a>
-                            <a href="https://www.instagram.com/mydragoncamp/" className='socialImg'>
+                            <a href="https://www.youtube.com/@dragoncamp5923" className='socialImg'>
                               <img src={youtube} alt=""/>
                             </a>
                         </div>
