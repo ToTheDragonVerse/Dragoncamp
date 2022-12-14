@@ -8,6 +8,8 @@ import twitter from './assets/twitter.png'
 import youtube from './assets/YouTube.png'
 import facebook from './assets/Facebook.png'
 import pinterest from './assets/pinterest.png'
+import apple from './assets/appleicon.png';
+import playstore from './assets/googleplay.png';
 
 function NewTopHome() {
   return (
@@ -77,9 +79,29 @@ function NewTopHome() {
                             </p>
                         </div>
                         <div class="col-12">
-                            <a href="!#" className='plybtton'>
-                              <img src={playbtn} alt="" />
-                            </a>
+                            <div class="btns-wrapper ">
+                                    <div class="black-btn me-3 my-3">
+                                        <a href="https://play.google.com/store/apps/details?id=com.dragoncamp.game" class=" d-flex align-items-center justify-content-between">
+                                            <img src={playstore} alt="" />
+
+                                            <div class="text ps-2 plystrBtnTxt">
+                                                <span>GET IT ON</span>
+                                                <p>Google Play</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="black-btn ms-3 my-3">
+                                        <a href="https://apps.apple.com/us/app/DragonCamp/id1622253862" class="d-flex align-items-center justify-content-between">
+                                            <img src={apple} alt="" />
+
+                                            <div class="text ps-2 plystrBtnTxt">
+                                                <span>Download on the</span>
+                                                <p>App Store</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             <a href="https://www.instagram.com/mydragoncamp/" className='socialImg firstChild'>
                               <img src={instagram} alt=""/>
                             </a>
