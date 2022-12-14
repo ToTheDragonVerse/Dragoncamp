@@ -7,6 +7,7 @@ import instagram from './assets/instagram.png'
 import twitter from './assets/twitter.png'
 import youtube from './assets/YouTube.png'
 import facebook from './assets/Facebook.png'
+import pinterest from './assets/pinterest.png'
 
 function NewTopHome() {
   return (
@@ -90,6 +91,9 @@ function NewTopHome() {
                             </a>
                             <a href="https://www.youtube.com/@dragoncamp5923" className='socialImg'>
                               <img src={youtube} alt=""/>
+                            </a>
+                            <a href="https://pin.it/1FvYhdP" className='socialImg'>
+                              <img src={pinterest} alt=""/>
                             </a>
                         </div>
                         <div class="col-12">
